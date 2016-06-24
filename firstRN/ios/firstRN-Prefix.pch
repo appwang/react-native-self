@@ -1,0 +1,15 @@
+//
+//  firstRN-Prefix.pch
+//  firstRN
+//
+//  Created by cousin on 16/6/13.
+//  Copyright © 2016年 Facebook. All rights reserved.
+//
+
+#ifndef firstRN_Prefix_pch
+#define firstRN_Prefix_pch
+
+#define CMSdkEnvironment    2
+#define CMApiEnvironment    2
+
+#endif /* firstRN_Prefix_pch */
