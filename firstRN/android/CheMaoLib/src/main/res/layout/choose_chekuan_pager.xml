@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_w"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/com_title_view" />
+
+    <!-- 选择品牌 -->
+
+    <FrameLayout
+        android:id="@+id/chekuanLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color_w"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/chekuanRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.chemao.base.choose.view.PinnedHeaderListView
+                android:id="@+id/chekuanBrandListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/color_g1"
+                android:dividerHeight="0.5dp"
+                android:scrollbars="none" >
+            </com.chemao.base.choose.view.PinnedHeaderListView>
+
+            <com.chemao.base.choose.view.LetterListView
+                android:id="@+id/chekuanLetterListView"
+                android:layout_width="30dip"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="#40000000"
+                android:paddingBottom="2dp" />
+
+            <TextView
+                android:id="@+id/tv_showLetter"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:textColor="@color/color_com_r_1"
+                android:visibility="gone"
+                android:background="@drawable/shape_showletter"
+                android:textSize="45sp" />
+        </RelativeLayout>
+        <!-- 选择车系 -->
+
+        <LinearLayout
+            android:id="@+id/chekuanCarSeriesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:background="@color/color_w"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_g1" />
+
+            <ListView
+                android:id="@+id/chekuanCarSeriesListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="@color/color_g1"
+                android:dividerHeight="0.5dip"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+        </LinearLayout>
+        <!-- 选 择车款 -->
+
+        <LinearLayout
+            android:id="@+id/chekuanCartypeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="180dp"
+            android:background="@color/color_w"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_g1" />
+            <ListView
+                android:id="@+id/chekuanCartypeListView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="@color/color_g1"
+                android:dividerHeight="0.5dip"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

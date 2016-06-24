@@ -1,0 +1,224 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- ////////////////////////////////////////////////////////////////// -->
+    <!-- 统一整理的字体大小值 -->
+    <!-- 16px -->
+    <dimen name="fontsize_xxs">8sp</dimen>
+    <dimen name="fontsize_xls">10sp</dimen>
+    <dimen name="fontsize_xs">11sp</dimen>
+    <!-- 18px -->
+    <dimen name="fontsize_s">12sp</dimen>
+    <!-- 20px -->
+    <dimen name="fontsize_m">13sp</dimen>
+    <!-- 24px -->
+    <dimen name="fontsize_l">15sp</dimen>
+    <!-- 26px -->
+    <dimen name="fontsize_xl">17.5sp</dimen>
+
+    <!-- 36xp -->
+    <dimen name="fontsize_bl">20sp</dimen>
+
+    <!-- 60xp -->
+    <dimen name="fontsize_xxbl">25sp</dimen>
+    <!--  -->
+    <dimen name="fontsize_xxxbl">30sp</dimen>
+    <!-- ////////////////////////////////////////////////////////////////// -->
+    <!-- for title bar -->
+    <dimen name="titlebar_height">50dip</dimen>
+    <dimen name="titlebar_btn_w">50dip</dimen>
+    <dimen name="titlebar_icon_height">23dip</dimen> <!-- 34px -->
+    <dimen name="titlebar_div_height">30dip</dimen>
+    <dimen name="titlebar_padding_left">10dip</dimen>
+    <dimen name="titlebar_padding_right">10dip</dimen>
+    <dimen name="titlebar_padding_top">10dip</dimen>
+    <dimen name="titlebar_padding_buttom">10dip</dimen>
+    <!-- 底部title 高 图片宽高 -->
+    <dimen name="bottom_title_view">50dip</dimen>
+    <dimen name="bottom_title_icon_w">40dip</dimen>
+    <dimen name="bottom_title_icon_h">45dip</dimen>
+    <!-- custom dialog 宽度 -->
+    <dimen name="custom_dialog_w">290dip</dimen>
+    <!-- 登录 -->
+    <dimen name="login_edit_w">281dip</dimen>
+    <dimen name="login_edit_iconwh">25dip</dimen>
+    <dimen name="login_btn_w">281dip</dimen>
+    <dimen name="login_btn_h">45dip</dimen>
+    <dimen name="login_icon_layout_h">80dip</dimen>
+    <dimen name="login_icon_w">132dip</dimen> <!-- 120 -->
+    <dimen name="login_icon_h">59dip</dimen> <!-- 49 -->
+    <dimen name="login_icontext_w">20dip</dimen>
+    <dimen name="login_icontext_h">6dip</dimen>
+    <dimen name="login_caticontop_pd">87dip</dimen> <!-- 174px -->
+    <dimen name="login_left_pd">20dip</dimen> <!-- 39px -->
+    <dimen name="login_right_pd">20dip</dimen> <!-- 39px -->
+    <dimen name="login_btn_top_pd">10dip</dimen> <!-- 90px -->
+
+    <!-- 看车单分类 -->
+    <dimen name="filter_layout_h">45dip</dimen>
+    <dimen name="filter_icon_marg_l">14dip</dimen>
+    <dimen name="filter_text_marg_l">14dip</dimen>
+    <dimen name="filter_icon_w">22dip</dimen>
+    <dimen name="filter_icon_h">22dip</dimen>
+    <dimen name="filter_line_marg_l">47dip</dimen>
+
+    <!-- 列表为空时Icon -->
+    <dimen name="emptylist_icon_w">150dip</dimen>
+    <dimen name="emptylist_icon_h">77dip</dimen>
+    <!-- 看车列表底部切换页面图标 -->
+    <dimen name="changepager_icon_wh">25dip</dimen>
+    <!-- 圆形进度条w*h -->
+    <dimen name="pro_loading_wh">80dip</dimen>
+    <!-- 看车单 -->
+    <dimen name="visit_icon_w">24dip</dimen>
+    <dimen name="visit_icon_h">24dip</dimen>
+    <dimen name="visit_dateicon_top_pd">12dip</dimen> <!-- 25px -->
+    <dimen name="visit_timelayout_w">80dp</dimen>
+    <dimen name="visit_bottomtitle_icon_w">30dp</dimen>
+    <dimen name="visit_bottomtitle_icon_h">23dp</dimen>
+    <dimen name="visit_redenvelope_icon_w">90dp</dimen>
+    <dimen name="visit_redenvelope_icon_h">67dp</dimen>
+    <dimen name="visit_itemdate_icon_w">50dp</dimen> <!-- 106px -->
+    <dimen name="visit_itemdate_icon_w2">43dp</dimen>
+    <dimen name="visit_itemdate_icon_h">24dp</dimen> <!-- 48px -->
+    <dimen name="visit_itemline_icon_left">23dp</dimen> <!-- 106px -->
+    <dimen name="visit_right_pd">12dp</dimen> <!-- 24px -->
+    <dimen name="visit_itemdate_line_w">4dp</dimen>
+    <dimen name="visit_right_arrowicon_h">16dp</dimen>
+    <dimen name="visit_right_arrowicon_w">10dp</dimen>
+    <dimen name="visit_item_h">130dp</dimen>
+    <dimen name="visit_item_bottompding">18dp</dimen> <!-- 36px -->
+    <dimen name="visit_title_icon_wh">25dp</dimen>
+    <dimen name="visit_title_left_icon_wh">30dp</dimen>
+    <dimen name="visit_item_caricon_wh">25dp</dimen>
+    <dimen name="visit_itemrightarrowicon_wh">18dp</dimen>
+    <dimen name="visit_itempopbtn_w">50dp</dimen>
+    <dimen name="visit_itempopbtn_h">40dp</dimen>
+    <dimen name="visit_itempopview_w">160dp</dimen>
+    <dimen name="visit_itempopview_h">40dp</dimen>
+
+    <!-- 看车单列表 -->
+    <dimen name="visitlist_top_dp">12dp</dimen> <!-- 30px-6px -->
+    <dimen name="visitlist_left_dp">8dp</dimen> <!-- 24px-7px -->
+    <dimen name="visitlist_right_dp">6dp</dimen> <!-- 24px-12px -->
+    <dimen name="visitlistcaricon_left_dp">13dp</dimen> <!-- 26px -->
+    <dimen name="visitlistcaricon_right_dp">9dp</dimen> <!-- 18x -->
+    <dimen name="visitlistcaricon_top_dp">6dp</dimen> <!-- 16x -->
+    <dimen name="visitlistcaricon_bottom_dp">8dp</dimen> <!-- 16x -->
+    <dimen name="visitlistcartitle_left_dp">15dp</dimen> <!-- 30x -->
+    <dimen name="visitlistcartitle_top_dp">20dp</dimen> <!-- 40x -->
+    <dimen name="visitlistcartitle_bottom_dp">20dp</dimen> <!-- 40x -->
+    <dimen name="visitlistline2_top_dp">20dp</dimen> <!-- 40x -->
+    <dimen name="visitlistline2_bottom_dp">20dp</dimen> <!-- 40x -->
+    <dimen name="visitlistcardealerright_dp">10dp</dimen> <!-- 20x -->
+    <dimen name="visitlistdbtop_dp">8dp</dimen> <!-- 24x -->
+    <dimen name="visitlistdbbottom_dp">13dp</dimen> <!-- 40x-14PX -->
+    <!-- 看车单列表备注 -->
+    <dimen name="visitlist_mark_txt_left_dp">11dp</dimen> <!-- 22 -->
+    <dimen name="visitlist_mark_txt_right_dp">12dp</dimen> <!-- 24 -->
+    <dimen name="visitlist_mark_txt_top_bt_dp">10dp</dimen> <!-- 20 -->
+    <dimen name="visitlist_mark_bt_line_h">12dp</dimen> <!-- 23 -->
+    <dimen name="visitlist_mark_min_h">60dp</dimen>
+    <dimen name="visitlist_mark_left_dp">12dp</dimen> <!-- 24px -->
+    <dimen name="visitlist_mark_right_dp">12dp</dimen> <!-- 24px -->
+    <!-- 选择战败原因 -->
+    <dimen name="failedreasonokbtn_h">40dp</dimen>
+    <!-- 车辆历史 -->
+    <dimen name="carhislistitem_top_dp">15dp</dimen> <!-- 38PX -->
+    <dimen name="carhislistitem_bottom_dp">8dp</dimen> <!-- 38PX -->
+    <dimen name="carhislistitem_left_dp">12dp</dimen> <!-- 24PX -->
+    <dimen name="carhislistitem_icon_wxh">16dp</dimen> <!-- 32PX -->
+    <dimen name="carhislistitem_markleft_pd">38dp</dimen> <!-- 10+24+32PX -->
+    <dimen name="carhislistitem_bottom_pd">13dp</dimen> <!-- 26PX -->
+    <!-- 找车单列表 -->
+    <dimen name="fodlist_top_pd">11dip</dimen> <!-- 22 px -->
+    <dimen name="fodlist_left_pd">12dip</dimen> <!-- 24 px -->
+    <dimen name="fodlist_right_pd">8dip</dimen> <!-- 24 px -->
+    <dimen name="fodlistcar_left_pd">13dip</dimen> <!-- 26 px -->
+    <dimen name="fodlistcar_right_pd">12dip</dimen> <!-- 24 px -->
+    <dimen name="fodlistname_left_pd">12dip</dimen> <!-- 24 px -->
+    <dimen name="fodlistdate_left_pd">62dip</dimen> <!-- 24+24+26+40 px -->
+    <dimen name="fodlistcar_w_pd">40dip</dimen> <!-- 80 px -->
+    <dimen name="fodlistcar_h_pd">35dip</dimen> <!-- 70 px -->
+    <dimen name="fodlistcarnum_wxh_pd">21dip</dimen> <!-- 42 px -->
+    <dimen name="findcar_itempopview_w">85dp</dimen>
+    <dimen name="findcar_itempopview_h">30dp</dimen>
+    <!-- 推荐介绍 -->
+    <dimen name="recommend_edit_h">45dp</dimen>
+    <!-- 输入框高 -->
+    <dimen name="search_merchant_edittext_h">40dp</dimen>
+    <dimen name="search_merchant_button_wh">25dp</dimen>
+    <!-- 选择车型 -->
+    <dimen name="find_choose_item_com_h">45dip</dimen>
+    <!-- 找车单详情页面 -->
+    <dimen name="fod_pic_top_pd">17dip</dimen> <!-- 26 px -->
+    <dimen name="fod_pic_right_pd">12dip</dimen> <!-- 24 px -->
+    <dimen name="fod_name_bottom_pd">5dip</dimen> <!-- 24 px -->
+    <dimen name="fod_bqbtn_top_pd">9dip</dimen> <!-- 40-26 px -->
+    <dimen name="fod_bqbtn_w">128dip</dimen> <!-- 220px -->
+    <dimen name="fod_bqbtn_h">40dip</dimen> <!-- 68px -->
+    <dimen name="fod_pic_wh">60dip</dimen> <!-- 90*90 px -->
+    <dimen name="fod_d_line1top_dp">15dip</dimen> <!-- 23 px -->
+    <dimen name="fod_d_line1bottom_dp">20dip</dimen> <!-- 30px -->
+    <dimen name="fod_carpic_w">95dip</dimen> <!-- 190px -->
+    <dimen name="fod_carpic_h">70dip</dimen> <!-- 140px -->
+    <dimen name="fod_d_line2top_dp">20dip</dimen> <!-- 30 px -->
+    <dimen name="fod_d_line2bottom_dp">20dip</dimen> <!-- 30px -->
+    <dimen name="fod_d_item_dp">17dip</dimen> <!-- 26px -->
+    <dimen name="fod_item_dp">12dip</dimen> <!-- 24px -->
+    <!-- 发车页面 -->
+    <dimen name="issue_item_h">50dip</dimen>
+    <dimen name="isssue_mandatory_item_title_w">75dip</dimen>
+    <dimen name="isssue_pic_layout_w">100dip</dimen>
+    <dimen name="isssue_pic_layout_h">68dip</dimen>
+    <dimen name="isssue_pic_fram_icon_w">95dip</dimen>
+    <dimen name="isssue_pic_fram_icon_h">63dip</dimen>
+    <dimen name="isssue_pic_w">90dip</dimen>
+    <dimen name="isssue_pic_h">58dip</dimen>
+    <!-- 找车单筛选 -->
+    <dimen name="fod_item_sort_item_w">200dip</dimen> <!-- 400px -->
+    <dimen name="fod_item_sort_line_w">7dip</dimen> <!-- 14px -->
+    <dimen name="fod_item_sort_icon_left">6dip</dimen> <!-- 12px -->
+    <dimen name="fod_item_sort_icon_right">8dip</dimen> <!-- 16px -->
+    <dimen name="fod_item_sort_group_h">40dip</dimen> <!-- 60px -->
+    <dimen name="fod_item_sort_child_h">42dip</dimen> <!-- 84px -->
+    <!-- 传车记录 -->
+    <dimen name="issue_history_item1_height">50dp</dimen>
+    <dimen name="issue_history_item2_height">74dp</dimen>
+    <dimen name="issue_history_item3_height">53dp</dimen>
+    <dimen name="issue_history_icon_right_margin">10dp</dimen>
+    <dimen name="issue_history_pic_w">60dip</dimen>
+    <dimen name="issue_history_pic_h">40dip</dimen>
+    <!-- 获取我的线下车库 -->
+    <dimen name="offcar_layout_item1_height">94dp</dimen>
+    <dimen name="offcar_layout_item2_height">50dp</dimen>
+    <dimen name="offcar_layout_item1_image_w">87dp</dimen>
+    <dimen name="offcar_layout_item1_image_h">64dp</dimen>
+    <dimen name="offcar_layout_item2_text_w">70dip</dimen>
+    <dimen name="offcar_layout_item2_text_h">25dip</dimen>
+    <!-- 发车中 -->
+    <dimen name="issueing_layout_item1_height">114dp</dimen>
+    <dimen name="issueing_layout_item2_height">64dp</dimen>
+    <dimen name="issueing_layout_item1_image_w">112dp</dimen>
+    <dimen name="issueing_layout_item1_image_h">78dp</dimen>
+    <dimen name="issueing_layout_item2_text_w">90dip</dimen>
+    <dimen name="issueing_layout_item2_text_h">33dip</dimen>
+    <dimen name="issueing_layout_item1_image_marL">12dip</dimen>
+    <dimen name="issueing_layout_item1_text_marL">18dip</dimen>
+
+    <!--padding-->
+    <dimen name="padding_svprogresshuddefault">15dp</dimen>
+    <!--窗口最小宽度-->
+    <dimen name="size_minwidth_svprogresshuddefault">120dp</dimen>
+    <!--图片宽高-->
+    <dimen name="size_image_bigloading">80dp</dimen>
+    <!--图片宽高-->
+    <dimen name="size_image_smallloading">95dp</dimen>
+    <!--圆角-->
+    <dimen name="radius_svprogresshuddefault">25px</dimen>
+    <!--提示的文字大小-->
+    <dimen name="textSize_svprogresshuddefault_msg">11sp</dimen>
+    <dimen name="margintop_svprogresshuddefault_msg">10dp</dimen>
+</resources>

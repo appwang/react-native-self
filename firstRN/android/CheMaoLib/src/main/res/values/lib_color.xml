@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright 2011 Sina.
+ *
+ * Licensed under the Apache License and Weibo License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.open.weibo.com
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+
+
+
+-->
+<resources>
+
+    <!-- ////////////////////////////////////////////////////////////////// -->
+    <!-- 系统主题色 包含titlebar 主题按钮颜色 -->
+    <color name="color_app_theme">@color/color_or1</color>
+    <color name="color_top_title">#E64C3C</color>
+    <color name="color_bottom_title">#FaFaFa</color>
+    <!-- 统一整理的颜色值 -->
+    <!-- 粉红色 -->
+    <color name="color_p1">#fa89a7</color>
+    <color name="color_p2">#ef6189</color>
+    <color name="color_p3">#f06e94</color>
+    <color name="color_p4">#e24b76</color>
+
+    <!-- 灰色 -->
+    <color name="color_g1">#e6e6e6</color>
+    <color name="color_g2">#7f7f7f</color>
+    <color name="color_g3">#b7b7b7</color>
+    <color name="color_g4">#666666</color>
+    <color name="color_g5">#afafaf</color>
+    <color name="color_g6">#9d9d9d</color>
+    <color name="color_g7">#fafafa</color>
+    <color name="color_g8">#D9D9D9</color>
+    <color name="color_g9">#666666</color>
+ 	<color name="color_g10">#f7f7f7</color>
+ 	<color name="color_g11">#959595</color>
+    <color name="color_g12">#e1e1e1</color>
+
+    <!-- 白色 -->
+    <color name="color_w">#ffffff</color>
+
+    <!-- 半透白色 -->
+    <color name="color_trans_half_w">#e6ffffff</color>
+    <color name="color_trans_half_p2">#66ef6189</color>
+    <color name="color_trans_half_b">#50000000</color>
+
+    <!-- 蓝绿色 -->
+    <color name="color_b">#57cbc8</color>
+
+    <!-- 黄色 -->
+    <color name="color_y1">#fcd063</color>
+    <color name="color_y2">#f6c959</color>
+    <color name="color_y3">#f0be43</color>
+
+    <!-- 绿色 -->
+
+    <color name="color_gr2">#93cd58</color>
+    <color name="color_gr3">#8fc359</color>
+
+    <!-- 紫色 -->
+    <color name="color_pu1">#b59bcb</color>
+    <color name="color_pu2">#ac8dc6</color>
+    <color name="color_pu3">#a685c1</color>
+
+    <!-- 橙色 -->
+    <color name="color_or1">#f7ad5d</color>
+    <color name="color_or2">#ec9d47</color>
+
+    <!-- 红色 -->
+    <color name="color_r1">#ee7777</color>
+    <color name="color_r2">#e66262</color>
+    <color name="color_r3">#C50000</color>
+
+    <!-- 蓝色 -->
+    <color name="color_blu1">#4fc1e9</color>
+    <color name="color_blu2">#3bb0d9</color>
+    <color name="color_tb1">#3dd1c5</color>
+    <color name="color_tb2">#38c2b6</color>
+    <!--黑色-->
+    <color name="color_black">#000000</color>
+
+    <!-- 透明 -->
+    <color name="color_trans">#00000000</color>
+
+    <!-- 半透明 -->
+    <!-- 弹出对话框 等背景颜色 -->
+    <color name="color_half_trans">#16000000</color>
+    <!-- 登录 -->
+    <color name="login_bg_color">#ffffff</color>
+    <color name="login_registerbtn_color">#e4e4e4</color>
+    <color name="login_getvrifycode_text_color">#73c3f8</color>
+    <!-- #e5e5e5 -->
+    <color name="login_btn_fram_color">#e5e5e5</color>
+    <!-- 我的 -->
+    <color name="color_my_pager_account_num">#999999</color>
+    <color name="color_my_pager_item">#666666</color>
+    <color name="color_my_pager_login">#e64c3c</color>
+    <!-- 发布车辆页面 -->
+    <color name="color_isuue_cancel_tips">#cccccc</color>
+    <color name="color_isuue_mtitle">#454545</color>
+    <color name="color_isuue_edittext">#333333</color>
+    <color name="color_isuue_edittext2">#959595</color>
+    <!-- 预览图片确定按钮背景色 -->
+    <color name="color_preview_ok_bg">#E62129</color>
+    <color name="color_preview_ok_bg_n">#b22222</color>
+    <!-- top progressbar color -->
+    <color name="top_progress_color">#E64C3C</color>
+    <!-- end -->
+    <!-- app 底部title 文字颜色 -->
+    <color name="color_app_bottom_n">#d94b3c</color>
+    <!-- 20150318 -->
+    <!-- 登录页面颜色 -->
+    <color name="login_color_title">#c50000</color>
+    <color name="login_color_title_c">#a40505</color>
+    <color name="login_color_btn_n">#dd1226</color>
+    <color name="login_color_btn_c">#ab0606</color>
+    <color name="login_color_edittexthint">#d4d4d4</color>
+    <color name="login_color_edittext">#333333</color>
+    <color name="login_color_line">#d8d8d8</color>
+    <!-- 看车单 -->
+    <color name="lookorder_bottom_bg">#322a35</color>
+    <color name="lookorder_bottom_textcolor_n">#ca9f98</color>
+    <color name="lookorder_bottom_textcolor_c">#f4d81f</color>
+    <!-- 看车列表 -->
+    <color name="visitcar_line">#d2d2d2</color>
+    <color name="visitcar_sort_item_bg_color">#f2f2f2</color>
+    <!-- 推荐有奖 0d0b0d -->
+    <color name="recommend_commitbg_n">#322a35</color>
+    <color name="recommend_commitbg_c">#2a232d</color>
+    <color name="recommend_moneytext_color">#fde906</color>
+    <!-- 我的红包 -->
+    <color name="my_redpacket_botton_bg">#322A35</color>
+    <color name="my_redpacket_line_bg">#A20B0B</color>
+
+     <color name="color_com_b_1">#333333</color>
+     <color name="color_com_b_2">#666666</color>
+     <color name="color_com_b_3">#959595</color>
+     <color name="color_com_b_4">#4a4a4a</color>
+     <color name="color_com_b_5">#c7c7c7</color>
+     <color name="color_com_b_6">#7aaf14</color>
+     <color name="color_com_r_1">#d94b3c</color>
+     <color name="color_com_w_1">#ffffff</color>
+     <color name="color_com_w_2">#fAfAfA</color>
+     <color name="color_com_w_3">#80ffffff</color>
+
+     <!-- app 底部title 文字颜色 -->
+     <color name="color_app_bottom_p">#716f6f</color>
+     <!-- 看车单备注颜色 fdf7ef-->
+     <color name="lookorder_mark_bg_color">#fdf7ef</color>
+
+    <!-- 历史发车状态颜色-->
+    <color name="status_red">#c50000</color>
+    <color name="status_green">#7aaf14</color>
+    <color name="status_grey">#c4c4c4</color>
+    <color name="status_yellow">#ffe400</color>
+
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="bgColor_overlay_black">#95000000</color>
+    <!--窗口背景颜色-->
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <!--标题颜色-->
+    <color name="textColor_svprogresshuddefault_msg">#000000</color>
+    <color name="roundColor_svprogresshuddefault">#e5e5e5</color>
+    <color name="roundProgressColor_svprogresshuddefault">@android:color/black</color>
+</resources>
